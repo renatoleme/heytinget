@@ -4,7 +4,7 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 
 ## Heyting poset
 
-A Heyting poset (named after the famous mathematician Arend Heyting) is a partially ordered set with the following properties:
+A Heyting poset (named after the famous mathematician Arend Heyting) is a partially ordered set $(P, \leq)$ with the following properties:
 
 ```math
 max \space \{ z : z \leq x \space and \space z \leq y \} \space (x \land y) \\
