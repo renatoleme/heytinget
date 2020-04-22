@@ -18,7 +18,7 @@ max \space \{ z : x \land z \leq y \}  \space \equiv \space (x \rightarrow y) \\
 
 then we say that $`\mathfrak{H}`$ is a Heyting poset (named after the logician Arend Heyting).
 
-As is widely known, every Heyting poset is a topology. So, let $`T = (X, \tau)`$ be a topology, then we can re-define those operator in terms of its topological counterparts 
+As is widely known, every Heyting poset is a topology. So, let $`T = (X, \tau)`$ be a topology, then we can re-define these operators in terms of their topological counterparts 
 
 ```math
 O_x \cap O_y \space \equiv \space (x \land y) \\
