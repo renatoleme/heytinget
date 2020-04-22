@@ -8,7 +8,7 @@ Find an intuitionistic counter-model for a proposition.
 
 ## Heyting poset
 
-Let $`\mathbb{P} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every $`x,y \in P`$, the following properties holds
+Let $`\mathfrak{P} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every $`x,y \in P`$, the following properties holds
 
 ```math
 max \space \{ z : z \leq x \space and \space z \leq y \} \space (x \land y) \\
