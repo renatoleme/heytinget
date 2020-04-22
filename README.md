@@ -16,7 +16,7 @@ max \space \{ z : x \leq z \space and \space y \leq z \} \space (x \lor y) \\
 max \space \{ z : x \land z \leq y \}  \space (x \rightarrow y) \\
 ```
 
-then we say that it is a Heyting poset (named after the famous mathematician Arend Heyting).
+then we say that $`\mathfrak{P}`$ is a Heyting poset (named after the logician Arend Heyting).
 
 ## Example
 
