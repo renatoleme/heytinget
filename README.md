@@ -10,7 +10,7 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 
 If a partially ordered set have the following properties
 
-```math
+```aligned
 max \space \{ z : z \leq x \space and \space z \leq y \} \space (x \land y) \\
 max \space \{ z : x \leq z \space and \space y \leq z \} \space (x \lor y) \\
 max \space \{ z : x \land z \leq y \}  \space (x \rightarrow y) \\
