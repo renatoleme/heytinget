@@ -8,14 +8,7 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 
 ## Heyting poset
 
-If a partially ordered set have the following properties
-
-$$
-\begin{aligned}
-x&=1\label{eq:1}\\
-y&=2
-\end{aligned}
-$$
+If a partially ordered set ${(P, \leq)}$ have the following properties
 
 ```math
 max \space \{ z : z \leq x \space and \space z \leq y \} \space (x \land y) \\
