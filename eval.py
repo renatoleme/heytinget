@@ -48,7 +48,7 @@ def is_cm (r_factor):
 	
 	rows, columns = os.popen('stty size', 'r').read().split()
 	
-	T = [[],[1],[1,3],[1,4],[1,2,3],[1,3,4],[1,2,3,4]]
+	T = [[],[1],[1,2,3,4]]
 	X = set(T[len(T)-1])
 	o_pairs = list(itertools.product(T, repeat = r_factor))
 	cm = 0
@@ -60,7 +60,7 @@ def is_cm (r_factor):
 		for i in o:
 			if (i == [] or i == list(X)):
 				valid = 0
-		if ( Int ( complement ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( Int ( o[1] ).union ( Int ( o[2] ) ) ) ) ).union ( Int ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( o[1] ) ) ).union ( Int ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( o[2] ) ) ) ) ) ) != X and valid ):
+		if ( Int ( o[0] ).union ( Int ( Int ( complement ( o[0] ) ) ) ) != X and valid ):
 			print (str1),
 			print str(T),
 			print (str2).rjust(int(columns) - len(str(T)) - len(str1) - len(str2) - len(str(o))),

@@ -39,3 +39,9 @@ Every input (a given proposition) is translated into a semantically equivalent e
 ![Image description](examples.png)
 
 </div>
+
+## Usage
+
+```console
+user@host:~$ zsh h_cmodel.sh "proposition"
+```
