@@ -8,3 +8,7 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 
 ## List of supported logics (so far):
 1. Propositional logic
+
+## Example
+
+![Image description](example.png)
