@@ -1,1 +1,1 @@
-Int ( o[0] ).union ( Int ( Int ( complement ( o[0] ) ) ) )
+Int ( complement ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( Int ( o[1] ).union ( Int ( o[2] ) ) ) ) ).union ( Int ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( o[1] ) ) ).union ( Int ( Int ( complement ( Int ( complement ( o[0] ) ) ).union ( o[2] ) ) ) ) ) )

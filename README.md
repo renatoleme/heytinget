@@ -32,10 +32,10 @@ without any loss of generality.
 
 Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
 
-## Example
+## Examples
 
 <div align="center">
 
-![Image description](example.png)
+![Image description](examples.png)
 
 </div>
