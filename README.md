@@ -7,7 +7,7 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 A Heyting poset (named after the famous mathematician Arend Heyting) is a partially ordered set with the following properties:
 
 ```math
-a^2+b^2=c^2
+max {z : z \leq x and z \leq y}
 ```
 
 ## Some of its central features:
