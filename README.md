@@ -7,10 +7,9 @@ Find a counter-model and a valuation for the corresponding heyting poset for a p
 A Heyting poset (named after the famous mathematician Arend Heyting) is a partially ordered set with the following properties:
 
 ```math
-\begin{enumerate}
-\item max \{ z : z \leq x \space and \space z \leq y \} \\
-\item max \{ z : z \leq x \space and \space z \leq y \}
-\end{enumerate}
+max \{ z : z \leq x \space and \space z \leq y \} \\
+max \{ z : x \leq z \space and \space y \leq z \} \\
+max \{ z : x \land z \leq y \}
 ```
 
 ## Some of its central features:
