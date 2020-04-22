@@ -1,0 +1,37 @@
+################################################   
+# Examples:
+################################################
+# 	~ p -> (q \/ r) |- (~ p -> q) \/ (~p -> r)
+# 	|- (~ p -> (q \/ r)) -> ((~ p -> q) \/ (~p -> r))
+#	expr="Int ( complement ( Int ( complement ( Int (complement (  $1  ) ) ).union ( Int ( Int (  $2  ).union ( Int (  $3  ) ) ))) ).union ( Int ( Int ( Int ( complement ( Int (complement (  $1  ) ) ).union ( Int (  $2  ))) ).union ( Int ( Int ( complement ( Int (complement (  $1  ) ) ).union ( Int (  $3  ))) ) ) ))) != X"
+#
+# 	|- p -> p (NÃO possui contra-modelo)
+#	expr="Int ( complement( $1 ).union( Int ( $1 ))) != X"
+#
+# 	(p \/ q) -> (r \/ s) |- (p -> r) \/ (q -> s)
+# 	|- ((p \/ q) -> (r \/ s)) -> ((p -> r) \/ (q -> s))
+#	expr="Int ( complement ( Int ( complement ( Int ( $1 ).union (Int ($2 )) ).union( Int ( $3 ).union (Int ( $4 )) ) )).union ( Int ( complement ( $1 ).union( Int ( $3 ) ) ).union (Int ( complement ( $2 ).union( Int ( $4 ) )  )))) != X"
+#	expr="Int ( complement ( Int ( complement ( Int (  $1  ).union ( Int (  $2  ) ) ).union ( Int ( Int (  $3  ).union ( Int (  $4  ) ) ))) ).union ( Int ( Int ( Int ( complement (  $1  ).union ( Int (  $3  ))) ).union ( Int ( Int ( complement (  $2  ).union ( Int (  $4  ))) ) ) ))) != X "
+#
+# 	~ (p /\ q) |- ~p \/ ~q
+# 	|- ~ (p /\ q) -> (~p \/ ~q)
+#	expr="Int( complement (Int (complement (Int ( $1 ).intersection( Int ( $2 )))) ).union( Int (complement ( $1 )).union (Int (complement ( $2 )))) ) != X"
+#
+# 	|- p v ~p [Terceiro Excluído]
+#	expr="Int( $1 ).union (Int (complement( $1 ))) != X"
+#
+# 	|- p \/ (p -> q)
+#	expr="Int( $1 ).union (Int (complement ( $1 ).union( $2 ))) != X"
+#
+# 	|- (p -> q) \/ (q -> p)
+#	expr="Int ( complement ( $1 ).union( $2 ) ).union( Int( complement ( $2 ).union( $1 ))) != X"
+#
+# 	|- ((p -> q) -> p) -> p [Lei de Peirce]
+#	expr="Int (Int (Int (complement ( $1 )).union (Int ( $2 )))).union (Int( $1 )) != X"
+#	expr="Int ( complement ( Int ( complement ( Int ( complement (  $1  ).union ( Int (  $2  ))) ).union ( Int (  $1  ))) ).union ( Int (  $1  ))) != X"
+#
+# 	(p -> q) -> q |- (q -> p) -> p
+# 	|- ((p -> q) -> q) -> ((q -> p) -> p)
+#	expr="Int ( complement (Int (Int (complement (Int ( complement ( $1 )).union (Int ( $2 )))).union (Int ( $2 )))).union ( Int (Int (complement (Int( complement ( $2 )).union (Int ( $1 )))).union (Int ( $1 ))))) != X"
+#	expr="Int ( complement ( Int ( complement ( Int ( complement (  $1  ).union ( Int (  $2  ))) ).union ( Int (  $2  ))) ).union ( Int ( Int ( complement ( Int ( complement (  $2  ).union ( Int (  $1  ))) ).union ( Int (  $1  ))) ))) != X"
+#
