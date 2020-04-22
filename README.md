@@ -20,6 +20,8 @@ then we say that it is a Heyting poset (named after the famous mathematician Are
 
 ## Example
 
-<p align="center">
-  <img width="600" height="600" src="example.png">
-</p>
+<div align="center">
+
+![Image description](example.png)
+
+<\div>
