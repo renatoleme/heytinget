@@ -1,6 +1,6 @@
 # HeytinGET
 
-Find a counter-model and a valuation for the corresponding heyting poset for a proposition.
+Find a counter-model for a proposition.
 
 ## Some of its central features:
 - Topological semantics.
