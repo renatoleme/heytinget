@@ -24,4 +24,4 @@ then we say that it is a Heyting poset (named after the famous mathematician Are
 
 ![Image description](example.png)
 
-<\div>
+</div>
