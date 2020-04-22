@@ -28,6 +28,10 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
+### The HeytinGET way
+
+Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
+
 ## Example
 
 <div align="center">
