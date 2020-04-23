@@ -8,6 +8,10 @@ Find an intuitionistic counter-model for a proposition.
 
 ## Algorithm
 
+In what follows we expose the algorithm main lines, as well an informal proof of its correctness.
+
+### Definitions
+
 Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every $`x,y \in P`$, the following properties holds
 
 ```math
