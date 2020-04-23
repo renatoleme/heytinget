@@ -61,19 +61,19 @@ do
 done
 ```
 
-The idea is to look at every topology pre-seted on [topos.t](topos.t) file with every possible valuation.
+The idea is to look at every topology pre-seted on [topos.t](src/topos.t) file with every possible valuation.
 
 ### Correctness
 
 We can easily see that this algorithm is correct in the following sense: 
 
-If there exists a valuation for a given counter-model in [topos.t](topos.t) in which the proposition do not hold, then the program will output this model with that valuation, once we have that our loop is over every line of the file. So, if the proposition is not intuistionistically provable in any model of the universe of our topologies database, then we can guarantee that the program will indicate us that.
+If there exists a valuation for a given counter-model in [topos.t](src/topos.t) in which the proposition do not hold, then the program will output this model with that valuation, once we have that our loop is over every line of the file. So, if the proposition is not intuistionistically provable in any model of the universe of our topologies database, then we can guarantee that the program will indicate us that.
 
 ## Examples
 
 <div align="center">
 
-![Image description](examples.png)
+![Image description](res/examples.png)
 
 </div>
 

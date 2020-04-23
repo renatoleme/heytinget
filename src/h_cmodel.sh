@@ -26,3 +26,6 @@ do
 done
 
 echo "\n... done."
+
+rm eval.py
+rm t_out

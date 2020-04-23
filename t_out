@@ -1,1 +1,0 @@
-Int ( o[0] ).union ( Int ( Int ( complement ( o[0] ) ) ) )
