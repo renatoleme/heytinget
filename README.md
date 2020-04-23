@@ -36,6 +36,12 @@ We for granted that
 \Gamma \vdash_i \varphi \Rightarrow H \models \varphi
 ```
 
+and then
+
+```math
+H \neg \models \varphi \Rightarrow \Gamma \neg \vdash_i \varphi 
+```
+
 ### The HeytinGET way
 
 Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
