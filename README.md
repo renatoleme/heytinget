@@ -43,7 +43,7 @@ We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \var
 Let $`\psi \equiv \bigwedge\limits_{i=0}^n \{ \Gamma \} \rightarrow \varphi `$. So, via completeness,
 
 ```math
-vdash_i \psi \Rightarrow T \models \psi
+\vdash_i \psi \Rightarrow T \models \psi
 ```
 
 and then
