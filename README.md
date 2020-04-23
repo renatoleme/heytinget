@@ -33,14 +33,16 @@ without any loss of generality.
 We for granted that
 
 ```math
-\Gamma \vdash_i \varphi \Rightarrow H \models \varphi
+\Gamma \vdash_i \varphi \Rightarrow T \models \varphi
 ```
 
 and then
 
 ```math
-H \nvDash \varphi \Rightarrow \Gamma \not\vdash_i \varphi 
+T \nvDash \varphi \Rightarrow \Gamma \not\vdash \varphi 
 ```
+
+so if a model T do not models a proposition \varphi, then this proposition is not intuistionistically provable.
 
 ### The HeytinGET way
 
