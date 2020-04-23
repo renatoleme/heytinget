@@ -32,6 +32,19 @@ without any loss of generality.
 
 Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
 
+```shellscript
+for topo in $(cat topos.t)
+do
+
+	sed "s/%EXPR/$expr/g" is_cm.py > eval.py
+	sed -i -e "s/%TOPOLOGY/$topo/g" eval.py 
+	python eval.py $n_prop
+	
+done
+```
+
+The idea is to test every topology pre-seted on [topology file](topos.t) file with every possible valuation.
+
 ## Examples
 
 <div align="center">
