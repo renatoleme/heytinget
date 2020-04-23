@@ -34,7 +34,13 @@ without any loss of generality.
 
 ### Logical justification
 
-We take for granted that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
+We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
+
+```math
+\Gamma \vdash_i \varphi \Rightarrow \vdash_i \land \Gamma \rightarrow \varphi
+```
+
+Let $`\psi \equiv \land \Gamma \rightarrow \varphi `$. So, via completeness,
 
 ```math
 \Gamma \vdash_i \psi \Rightarrow T \models \psi
