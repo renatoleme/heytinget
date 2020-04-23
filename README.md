@@ -59,7 +59,7 @@ done
 
 The idea is to look at every topology pre-seted on [topos.t](topos.t) file with every possible valuation.
 
-### Correctness proof
+### Correctness
 
 We can easily see that this algorithm is correct in the following sense: 
 
