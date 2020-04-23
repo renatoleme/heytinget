@@ -40,7 +40,7 @@ We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \var
 \Gamma \vdash_i \varphi \space \Rightarrow \space \vdash_i \bigwedge\limits_{i=0}^n \{ \Gamma \} \rightarrow \varphi
 ```
 
-Let $`\psi \equiv \bigwedge\limits_{i=0}^n \{ \Gamma \} \rightarrow \varphi `$. So, via completeness,
+Let $`\psi \equiv \bigwedge\limits_{i=0}^n \{ \Gamma \} \rightarrow \varphi `$. So, via correctness of $`\vdash_i`$,
 
 ```math
 \vdash_i \psi \Rightarrow T \models \psi
@@ -69,7 +69,7 @@ done
 
 The idea is to look at every topology pre-seted on [topos.t](src/topos.t) file with every possible valuation.
 
-### Correctness
+### Algorithm correctness
 
 We can easily see that this algorithm is correct in the following sense: 
 
