@@ -28,6 +28,14 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
+### Logical justification
+
+We for granted that
+
+```math
+\Gamma \vdash_i \varphi \Rightarrow H \models \varphi
+```
+
 ### The HeytinGET way
 
 Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
@@ -35,15 +43,13 @@ Every input (a given proposition) is translated into a semantically equivalent e
 ```shell
 for topo in $(cat topos.t)
 do
-
 	sed "s/%EXPR/$expr/g" is_cm.py > eval.py
 	sed -i -e "s/%TOPOLOGY/$topo/g" eval.py 
 	python eval.py $n_prop
-	
 done
 ```
 
-The idea is to test every topology pre-seted on [topology file](topos.t) file with every possible valuation.
+The idea is to look at every topology pre-seted on [topology file](topos.t) file with every possible valuation.
 
 ## Examples
 
