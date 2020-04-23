@@ -30,7 +30,7 @@ without any loss of generality.
 
 ### Logical justification
 
-We for granted that
+We take for granted that
 
 ```math
 \Gamma \vdash_i \varphi \Rightarrow T \models \varphi
