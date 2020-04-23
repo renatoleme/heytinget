@@ -39,10 +39,10 @@ We for granted that
 and then
 
 ```math
-T \nvDash \varphi \Rightarrow \Gamma \not\vdash \varphi 
+T \nvDash \varphi \Rightarrow \neg (\Gamma \vdash_i \varphi)
 ```
 
-so if a model T do not models a proposition \varphi, then this proposition is not intuistionistically provable.
+so if a model $`T`$ do not models a proposition $`\varphi`$, then this proposition is not intuistionistically provable.
 
 ### The HeytinGET way
 
