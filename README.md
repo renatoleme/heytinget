@@ -32,7 +32,7 @@ without any loss of generality.
 
 Every input (a given proposition) is translated into a semantically equivalent expression of pertinency in open sets of an arbitrary topology $`T`$.
 
-```shellscript
+```shell
 for topo in $(cat topos.t)
 do
 
