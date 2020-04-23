@@ -34,19 +34,19 @@ without any loss of generality.
 
 ### Logical justification
 
-We take for granted that
+We take for granted that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
 
 ```math
-\Gamma \vdash_i \varphi \Rightarrow T \models \varphi
+\Gamma \vdash_i \psi \Rightarrow T \models \psi
 ```
 
 and then
 
 ```math
-T \nvDash \varphi \Rightarrow \neg (\Gamma \vdash_i \varphi)
+T \nvDash \psi \Rightarrow \neg (\Gamma \vdash_i \psi)
 ```
 
-so if a topology $`T`$ do not models a proposition $`\varphi`$, then this proposition is not intuistionistically provable.
+so if a topology $`T`$ do not models a proposition $`\psi`$, then this proposition is not intuistionistically provable.
 
 ### The HeytinGET way
 
