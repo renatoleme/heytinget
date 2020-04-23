@@ -39,7 +39,7 @@ We for granted that
 and then
 
 ```math
-H \not\models \varphi \Rightarrow \Gamma \nvDash_i \varphi 
+H \nvDash \varphi \Rightarrow \Gamma \not\vdash_i \varphi 
 ```
 
 ### The HeytinGET way
