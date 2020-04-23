@@ -59,6 +59,12 @@ done
 
 The idea is to look at every topology pre-seted on [topos.t](topos.t) file with every possible valuation.
 
+### Correctness proof
+
+We can easily see that this algorithm is correct in the following sense: 
+
+If there exists a valuation to a given counter-model in [topos.t](topos.t), then the program will output this model with that valuation. So, if the proposition is not intuistionistically provable in the universe of our topology file, then the program will output that.
+
 ## Examples
 
 <div align="center">
