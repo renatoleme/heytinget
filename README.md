@@ -57,7 +57,7 @@ do
 done
 ```
 
-The idea is to look at every topology pre-seted on [topology file](topos.t) file with every possible valuation.
+The idea is to look at every topology pre-seted on [topos.t](topos.t) file with every possible valuation.
 
 ## Examples
 
