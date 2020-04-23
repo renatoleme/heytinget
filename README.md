@@ -6,7 +6,7 @@ Find an intuitionistic counter-model for a proposition.
 - Topological semantics.
 - Kernel build upon GNU/Bison.
 
-## Heyting poset
+## Algorithm
 
 Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every $`x,y \in P`$, the following properties holds
 
