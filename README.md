@@ -1,8 +1,8 @@
 # HeytinGET
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![made-with-bash](https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg)](http://zsh.sourceforge.net/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/3)](https://pypi.python.org/pypi/ansicolortags/)
+[![made-with-bash](https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg)](http://zsh.sourceforge.net/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 Find an intuitionistic counter-model for a proposition.
