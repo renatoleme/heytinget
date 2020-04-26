@@ -15,7 +15,7 @@ In what follows we expose the algorithm main lines, as well an informal proof of
 
 ### Definitions
 
-Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every $`x,y \in P`$, the following properties holds
+Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every pair $`x,y \in P`$, there is
 
 ```math
 max \space \{ z : z \leq x \space and \space z \leq y \} \space \equiv \space (x \land y) \\
