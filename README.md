@@ -13,7 +13,7 @@ Find an intuitionistic counter-model for a proposition.
 
 In what follows we expose the algorithm main lines, as well an informal proof of its correctness.
 
-### Definitions
+### Logical justification
 
 #### Boolean-valued model
 
@@ -46,7 +46,7 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 without any loss of generality.
 
 
-### Logical justification
+#### Intuistionistic counter-model 
 
 We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
 
