@@ -57,13 +57,13 @@ We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \var
 Let $`\psi \equiv \bigwedge\limits_{i=0}^n \{ \Gamma \} \rightarrow \varphi `$. So, via correctness of $`\vdash_i`$,
 
 ```math
-\vdash_i \psi \Rightarrow T \models \psi
+\vdash_i \psi \Rightarrow \models_T \psi
 ```
 
 and then
 
 ```math
-T \nvDash \psi \Rightarrow \neg (\vdash_i \psi)
+\nvDash_T \psi \Rightarrow \neg (\vdash_i \psi)
 ```
 
 so if a topology $`T`$ do not models a proposition $`\psi`$, then this proposition is not intuistionistically provable.
