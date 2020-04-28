@@ -35,6 +35,16 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
+### Boolean-valued model
+
+Using a Boolean-valued model $`(B, +, *, 0, 1)`$, we can define the notion of tautology in the following way. 
+
+Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = 1`$.
+
+```math
+\vdash \varphi \Leftrightarrow B \models \phi
+```
+
 ### Logical justification
 
 We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
