@@ -19,7 +19,7 @@ In what follows we expose the algorithm main lines, as well an informal proof of
 
 Using a Boolean-valued model $`(B, +, *, \bot, \top)`$, we can define the notion of tautology in the following way. 
 
-Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = \top`$. We will denote that as $`\models_B \varphi`$.
+Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = \top`$. We will denote this as $`\models_B \varphi`$.
 
 #### Topological Heyting poset
 
@@ -45,7 +45,7 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
-A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (in the sense of a tautology in a Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$ and we will denote this as $`\models_T \varphi`$.
+A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (in the sense of a tautology in a Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$. We will denote this as $`\models_T \varphi`$.
 
 
 #### Intuistionistic counter-model 
