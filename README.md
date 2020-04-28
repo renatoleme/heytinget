@@ -45,7 +45,7 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
-A **classical tautology** is a *tautology* (in the sense of a tautology in a Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$.
+A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (in the sense of a tautology in a Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$ and we will denote this as $`\models_T \varphi`$.
 
 
 #### Intuistionistic counter-model 
