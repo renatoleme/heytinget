@@ -66,7 +66,7 @@ and then
 \nvDash_T \psi \Rightarrow \neg (\vdash_i \psi)
 ```
 
-so if a topology $`T`$ do not models a proposition $`\psi`$, then this proposition is not intuistionistically provable.
+so if exists a topology $`T`$ that do not models a proposition $`\psi`$, then this proposition is not intuistionistically provable.
 
 ### The HeytinGET way
 
