@@ -45,6 +45,8 @@ O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
 
 without any loss of generality.
 
+A **classical tautology** is a *tautology* (in the sense of Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$.
+
 
 #### Intuistionistic counter-model 
 
