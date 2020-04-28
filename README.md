@@ -15,6 +15,22 @@ In what follows we expose the algorithm main lines, as well an informal proof of
 
 ### Definitions
 
+#### Boolean-valued model
+
+Using a Boolean-valued model $`(B, +, *, 0, 1)`$, we can define the notion of tautology in the following way. 
+
+Notice that, for this model, we have that
+
+```math
+\vdash \varphi \Leftrightarrow B \models \phi
+```
+
+Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = 1`$.
+
+#### Topological Heyting poset
+
+We can extend our notion of Boolean-valued model.
+
 Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every pair $`x,y \in P`$, there is
 
 ```math
@@ -37,18 +53,6 @@ without any loss of generality.
 
 
 ### Logical justification
-
-#### Boolean-valued model
-
-Using a Boolean-valued model $`(B, +, *, 0, 1)`$, we can define the notion of tautology in the following way. 
-
-Notice that, for this model, we have that
-
-```math
-\vdash \varphi \Leftrightarrow B \models \phi
-```
-
-Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = 1`$.
 
 We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
 
