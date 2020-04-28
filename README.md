@@ -47,7 +47,7 @@ without any loss of generality.
 
 A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (in the sense of a tautology in a Boolean valued-model) in a topology T on which $`O_x \cup (X - O_x) = X`$ for every open set $`O_x`$. We will denote this as $`\models_T \varphi`$.
 
-For example, $`p \lor \neg p`$ is a classical tautology because it is a tautology in every discrete topology given by the power-set $`\tau = (S, P(S))`$.
+For example, $`p \lor \neg p`$ is a classical tautology because it is a tautology in every discrete topology $`\tau = (X, P(X))`$ given by the power-set of a set *X*.
 
 
 #### Intuistionistic counter-model 
