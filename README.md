@@ -17,7 +17,7 @@ In what follows we expose the algorithm main lines, as well an informal proof of
 
 #### Boolean-valued model
 
-Using a Boolean-valued model $`(B, +, *, 0, 1)`$, we can define the notion of tautology in the following way. 
+Using a Boolean-valued model $`(B, +, *, \bottom, \top)`$, we can define the notion of tautology in the following way. 
 
 Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, 
 
@@ -25,7 +25,7 @@ Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of 
 \vdash \varphi \Leftrightarrow B \models \varphi
 ```
 
-for every valuation $`v`$, $`v(\varphi) = 1`$.
+for every valuation $`v`$, $`v(\varphi) = \top`$.
 
 #### Topological Heyting poset
 
