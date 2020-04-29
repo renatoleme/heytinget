@@ -5,6 +5,8 @@
 
 Find an intuitionistic counter-model for a classical tautology.
 
+[[_TOC_]]
+
 ## Some of its central features:
 - Topological semantics.
 - Kernel build upon GNU/Bison.
@@ -50,7 +52,7 @@ A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (i
 For example, $`p \lor \neg p`$ is a classical tautology because it is a tautology in any discrete topology $`\tau = (X, P(X))`$ given by the power-set of a set *X*.
 
 
-#### Intuistionistic counter-model 
+#### Intuitionistic counter-model 
 
 We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
 
@@ -70,7 +72,7 @@ and then
 \nvDash_T \psi \Rightarrow \neg (\vdash_i \psi)
 ```
 
-so if exists a topology $`T`$ that do not models a proposition $`\psi`$, then this proposition is not intuistionistically provable.
+so if exists a topology $`T`$ that do not models a proposition $`\psi`$, then this proposition is not intuitionistically provable.
 
 ### The HeytinGET way
 
