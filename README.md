@@ -119,7 +119,7 @@ user@host:~$ zsh h_cmodel.sh "proposition"
 
 Please notice that the program output **every** counter-model that is found. 
 
-## Future work
+# Future work
 
 In future versions, I plan to implement more options, such like:
 
@@ -127,7 +127,7 @@ In future versions, I plan to implement more options, such like:
 - Graphical output;
 - Output restrictions;
 
-## Contact
+# Contact
 
 For comments, suggestions, bug report: you can contact me via <rntreisleme@gmail.com>.
 
