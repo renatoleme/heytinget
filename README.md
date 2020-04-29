@@ -125,7 +125,7 @@ In future versions, I plan to implement more features, such like:
 
 - Graphical interface;
 - Graphical output;
-- Output options;
+- Command-line options;
 
 # Contact
 
