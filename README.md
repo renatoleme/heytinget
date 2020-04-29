@@ -117,3 +117,17 @@ user@host:~$ zsh h_cmodel.sh "proposition"
 ![Usage](res/usage_ex.gif)
 </div>
 
+Please notice that the program output **every** counter-model that is founded. 
+
+## Future work
+
+In future versions, I plan to implement more options, such like:
+
+- Graphical interface;
+- Graphical output;
+- Output restrictions;
+
+## Contact
+
+You can contact me via: <rntreisleme@gmail.com>
+
