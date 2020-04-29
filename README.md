@@ -1,4 +1,4 @@
-![HeytinGET](res/lattice.png)
+<img src="res/lattice.png" align="right" />
 
 # HeytinGET
 
