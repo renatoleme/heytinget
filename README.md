@@ -58,7 +58,7 @@ A proposition $`\varphi`$ is a **classical tautology** if it is a *tautology* (i
 
 For example, $`p \lor \neg p`$ is a classical tautology because it is a tautology in any discrete topology $`\tau = (X, P(X))`$ given by the power-set of a set *X*.
 
-**(Definition)** A topological intuitionistic model is a tuple $`(T, \leq, v)`$, where $`\leq`$ is a preorder on $`T`$ and $`v : Prop \rightarrow T`$ is a function that assigns, to each propositional variable, a open set of the topology $`T`$.
+**(Definition)** A *topological intuitionistic model* is a tuple $`(T, \leq, v)`$, where $`\leq`$ is a preorder on $`T`$ and $`v : Prop \rightarrow T`$ is a function that assigns, to each propositional variable, a open set of the topology $`T`$.
 
 #### Intuitionistic counter-model 
 
