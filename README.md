@@ -1,11 +1,13 @@
-<img src="res/lattice.png" align="right" />
-
 # HeytinGET
+
+<img src="res/lattice.png" align="right" />
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![PyPI pyversions](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku)](https://pypi.python.org/pypi/ansicolortags/)
 
-Find an intuitionistic counter-model for a classical tautology.
+> Find an intuitionistic counter-model for a classical tautology.
+
+## Table of contents
 
 [[_TOC_]]
 
