@@ -20,7 +20,7 @@
 
 ## Algorithm
 
-In what follows we expose the algorithm main lines, as well an informal proof of its correctness.
+**HeytinGET** is a tool for logicians designed to optimize the task of searching for mathematical models. In what follows we expose the algorithm main lines, as well an informal proof of its correctness.
 
 ### Logical justification
 
