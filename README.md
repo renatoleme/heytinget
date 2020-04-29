@@ -121,7 +121,7 @@ user@host:~$ zsh h_cmodel.sh "proposition"
 ![Usage](res/usage_ex.gif)
 </div>
 
-Notice that the program output **every** counter-model that is found. 
+Notice that the program shows **every** counter-models found. 
 
 # Future work
 
