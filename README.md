@@ -121,11 +121,11 @@ Please notice that the program output **every** counter-model that is found.
 
 # Future work
 
-In future versions, I plan to implement more options, such like:
+In future versions, I plan to implement more features, such like:
 
 - Graphical interface;
 - Graphical output;
-- Output restrictions;
+- Output options;
 
 # Contact
 
