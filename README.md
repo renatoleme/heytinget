@@ -7,6 +7,10 @@
 
 > Find an intuitionistic counter-model for a classical tautology.
 
+<div align="center">
+![Usage](res/usage_ex.gif)
+</div>
+
 ## Table of contents
 
 [[_TOC_]]
