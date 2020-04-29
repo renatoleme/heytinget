@@ -61,6 +61,8 @@ For example, $`p \lor \neg p`$ is a classical tautology because it is a tautolog
 
 #### Intuitionistic counter-model 
 
+**Definition.** A topological intuitionistic model is a tuple $`(T, \leq, v)`$, where $`\leq`$ is a preorder on $`T`$ and $`v : Prop \rightarrow T`$ is a function that assigns, to each propositional variable, a open set of the topology $`T`$.
+
 We take for granted (via Deduction Theorem) that, given a set $`\Gamma = \{ \varphi_0, \varphi_1, \varphi_2, ..., \varphi_n \}`$ of propositions, we have
 
 ```math
