@@ -7,10 +7,6 @@
 
 > Find an intuitionistic counter-model for a classical tautology.
 
-<div align="center">
-![Usage](res/usage_ex.gif)
-</div>
-
 ## Table of contents
 
 [[_TOC_]]
@@ -116,3 +112,8 @@ If there is a valuation for a given counter-model in [topos.t](src/topos.t) in w
 ```console
 user@host:~$ zsh h_cmodel.sh "proposition"
 ```
+
+<div align="center">
+![Usage](res/usage_ex.gif)
+</div>
+
