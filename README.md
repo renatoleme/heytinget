@@ -1,6 +1,6 @@
-# HeytinGET
-
 <img src="res/lattice.png" align="right" />
+
+# HeytinGET [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![PyPI pyversions](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku)](https://pypi.python.org/pypi/ansicolortags/)
