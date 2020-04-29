@@ -129,5 +129,5 @@ In future versions, I plan to implement more options, such like:
 
 ## Contact
 
-You can contact me via: <rntreisleme@gmail.com>
+For comments, suggestions, bug report: you can contact me via <rntreisleme@gmail.com>.
 
