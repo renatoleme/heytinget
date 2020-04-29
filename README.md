@@ -12,8 +12,11 @@
 [[_TOC_]]
 
 ## Some of its central features:
+
 - Topological semantics.
 - Kernel build upon GNU/Bison.
+- Open-source.
+- Command-line based.
 
 ## Algorithm
 
