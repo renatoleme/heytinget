@@ -114,6 +114,7 @@ If there is a valuation for a given counter-model in [topos.t](src/topos.t) in w
 ## Usage
 
 ```console
+user@host:~$ cd src/
 user@host:~$ zsh h_cmodel.sh "proposition"
 ```
 
