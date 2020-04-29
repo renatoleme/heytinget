@@ -15,11 +15,9 @@
 - Topological semantics.
 - Kernel build upon GNU/Bison.
 
-<details>
-
 ## Algorithm
 
-<summary> In what follows we expose the algorithm main lines, as well an informal proof of its correctness. </summary>
+In what follows we expose the algorithm main lines, as well an informal proof of its correctness.
 
 ### Logical justification
 
@@ -100,8 +98,6 @@ The idea is to look at every topology pre-seted on [topos.t](src/topos.t) file w
 We can easily see that this algorithm is correct in the following sense: 
 
 If there is a valuation for a given counter-model in [topos.t](src/topos.t) in which the proposition do not hold, then the program will output this model with that valuation, once we have that our loop is over every line of the file. So, if the proposition is not intuistionistically provable in any model of the universe of our topologies database, then we can guarantee that the program will indicate us that.
-
-</details>
 
 ## Examples
 
