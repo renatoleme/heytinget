@@ -126,11 +126,12 @@ Notice that the program shows **every** counter-models found.
 
 # Future work
 
-In future versions, I plan to implement more features, such like:
+In future versions, we plan to implement more features, such like:
 
-- Graphical interface;
-- Graphical output;
+- Incorporate into a graphical interface;
+- Produce graphical output;
 - Command-line options;
+- Expand [topos.t](src/topos.t) file.
 
 # Contact
 
