@@ -37,7 +37,7 @@ We can extend our notion of Boolean-valued model.
 Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every pair $`x,y \in P`$, there is
 
 <p align="center">
-	<img src="https://latex.codecogs.com/png.latex?%20\begin{align*}%20max%20\,%20\{%20z%20:%20z%20\leq%20x%20\,%20and%20\,%20z%20\leq%20y%20\}%20\,%20\equiv%20\,%20(x%20\land%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\leq%20z%20\,%20and%20\,%20y%20\leq%20z%20\}%20\,%20\equiv%20\,%20(x%20\lor%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\land%20z%20\leq%20y%20\}%20%20\,%20\equiv%20\,%20(x%20\rightarrow%20y)%20\end{align*}" width="100%" />
+	<img src="https://latex.codecogs.com/png.latex?%20\begin{align*}%20max%20\,%20\{%20z%20:%20z%20\leq%20x%20\,%20and%20\,%20z%20\leq%20y%20\}%20\,%20\equiv%20\,%20(x%20\land%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\leq%20z%20\,%20and%20\,%20y%20\leq%20z%20\}%20\,%20\equiv%20\,%20(x%20\lor%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\land%20z%20\leq%20y%20\}%20%20\,%20\equiv%20\,%20(x%20\rightarrow%20y)%20\end{align*}" />
 </p>
 
 
