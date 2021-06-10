@@ -45,11 +45,9 @@ then we say that $`\mathfrak{H}`$ is a Heyting poset (named after the logician A
 
 As is widely known, every Heyting poset is a topology. So, let $`T = (X, \tau)`$ be a topology, then we can re-define these operators in terms of their topological counterparts 
 
-```math
-O_x \cap O_y \space \equiv \space (x \land y) \\
-O_x \cup O_y \space \equiv \space (x \lor y) \\
-O_{(X - O_x)} \cup O_y  \space \equiv \space (x \rightarrow y) \\
-```
+<p align="center">
+	<img src="https://latex.codecogs.com/png.latex?%20\begin{align*}%20O_x%20\cap%20O_y%20\space%20\equiv%20\space%20(x%20\land%20y)%20\\%20O_x%20\cup%20O_y%20\space%20\equiv%20\space%20(x%20\lor%20y)%20\\%20O_{(X%20-%20O_x)}%20\cup%20O_y%20%20\space%20\equiv%20\space%20(x%20\rightarrow%20y)%20\end{align*}" />
+</p>
 
 without any loss of generality.
 
