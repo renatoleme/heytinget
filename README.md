@@ -26,7 +26,7 @@
 
 #### Boolean-valued model
 
-Using a Boolean-valued model $(B, +, *, \bot, \top)$, we can define the notion of tautology in the following way. 
+Using a Boolean-valued model $`(B, +, *, \bot, \top)`$, we can define the notion of tautology in the following way. 
 
 Let $`v: Prop \rightarrow B`$ be a function that assign to every proposition of the language **Prop** a value of a boolean model **B**. Then we will say that $`\varphi`$ is a tautology if, and only if, for every valuation $`v`$, $`v(\varphi) = \top`$. We will denote this as $`\models_B \varphi`$.
 
@@ -36,11 +36,7 @@ We can extend our notion of Boolean-valued model.
 
 Let $`\mathfrak{H} = (P, \leq)`$ be partially ordered set with a minimal element. If, for every pair $`x,y \in P`$, there is
 
-```math
-max \space \{ z : z \leq x \space and \space z \leq y \} \space \equiv \space (x \land y) \\
-max \space \{ z : x \leq z \space and \space y \leq z \} \space \equiv \space (x \lor y) \\
-max \space \{ z : x \land z \leq y \}  \space \equiv \space (x \rightarrow y) \\
-```
+![equation](https://latex.codecogs.com/png.latex?%20\begin{align*}%20max%20\,%20\{%20z%20:%20z%20\leq%20x%20\,%20and%20\,%20z%20\leq%20y%20\}%20\,%20\equiv%20\,%20(x%20\land%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\leq%20z%20\,%20and%20\,%20y%20\leq%20z%20\}%20\,%20\equiv%20\,%20(x%20\lor%20y)%20\\%20max%20\,%20\{%20z%20:%20x%20\land%20z%20\leq%20y%20\}%20%20\,%20\equiv%20\,%20(x%20\rightarrow%20y)%20\end{align*})
 
 then we say that $`\mathfrak{H}`$ is a Heyting poset (named after the logician Arend Heyting).
 
